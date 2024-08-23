@@ -9,7 +9,7 @@ const dishSchema = new Schema({
     category: String,
     price: Number,
     note: String,
-    rating: String
+    rating: String,
     image: String
 }, {versionKey: false});
 
